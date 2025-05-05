@@ -2,9 +2,14 @@
 {
     internal class Program
     {
+        void sum(int n, int m)
+        {
+            Console.WriteLine(n+m);
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine(2+2);
+            Program a = new Program();
+            a.sum(1, 2);
         }
     }
 }
